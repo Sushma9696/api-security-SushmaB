@@ -1,4 +1,4 @@
-What are the real-world consequences of exposing an API key on GitHub?
+1) What are the real-world consequences of exposing an API key on GitHub?
 Exposing a key on GitHub isn't just a "best practice" issue; it has immediate, high-stakes consequences. Bots constantly crawl public GitHub repositories specifically looking for keys.
 
 Financial Theft (The "Bot" Attack): Attackers use leaked keys to run high-cost services. For example, if an AWS key is leaked, bots can spin up massive crypto-mining servers. Developers have reported bills exceeding $1,000 to $10,000 within hours of an accidental push.
@@ -7,7 +7,7 @@ Service Hijacking & DoS: If an attacker steals your OpenWeatherMap key, they can
 
 Data Breach Roadmap: A leaked key acts as a "front door" for hackers. Once inside your API ecosystem, they can often discover other vulnerabilities, such as your backend endpoints or database structures, leading to a broader system compromise.
 
-Why does your company's privacy policy prohibit logging city names?
+2) Why does your company's privacy policy prohibit logging city names?
 
 In healthcare, even a simple city name is considered a "sensitive identifier." Our company policy aligns with major privacy frameworks like HIPAA (USA) and GDPR (EU).
 
