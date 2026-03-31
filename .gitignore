@@ -1,0 +1,3 @@
+# Ignore the API key file (CRITICAL for security)
+weather.env
+
