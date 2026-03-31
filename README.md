@@ -1,4 +1,5 @@
 1) What are the real-world consequences of exposing an API key on GitHub?
+
 Exposing a key on GitHub isn't just a "best practice" issue; it has immediate, high-stakes consequences. Bots constantly crawl public GitHub repositories specifically looking for keys.
 
 Financial Theft (The "Bot" Attack): Attackers use leaked keys to run high-cost services. For example, if an AWS key is leaked, bots can spin up massive crypto-mining servers. Developers have reported bills exceeding $1,000 to $10,000 within hours of an accidental push.
